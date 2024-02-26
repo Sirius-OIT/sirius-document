@@ -16,14 +16,19 @@ STM32 Nucleoについて
 
 PCからデータを受け取り，モータを制御する．
 
-受信データはTwist型であり，以下のデータだけを受け取る．
+受信データのフォーマットは以下の通り
 
 .. code-block:: 
     
-    float64 linear.x
-    float64 angular.z
+    uint8 id
+    uint8 len
+    int16 linear.x
+    int16 angular.z
 
-これをPC側で **8bit x 4** のデータに変換し，Nucleoに送信している．
+- id: `0, 1`．よくわからないが，計算のON, OFFの切り替えをしている．
+- len: `4`. 以降のデータの長さ（バイト数）
+
+これを **8bit x 4** のデータに変換
 
 .. code-block:: none
 
