@@ -18,15 +18,15 @@ PCからデータを受け取り，モータを制御する．
 
 受信データのフォーマットは以下の通り
 
-.. code-block:: 
+.. code-block:: none
     
     uint8 id
     uint8 len
     int16 linear.x
     int16 angular.z
 
-.. - id: ``0, 1`` よくわからないが，計算のON, OFFの切り替えをしている．
-.. - len: ``4`` 以降のデータの長さ（バイト数）
+id: ``0, 1`` よくわからないが，計算のON, OFFの切り替えをしている．
+len: ``4`` 以降のデータの長さ（バイト数）
 
 .. code-block:: none
 
