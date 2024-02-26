@@ -16,4 +16,15 @@ STM32 Nucleoについて
 
 PCからデータを受け取り，モータを制御する．
 
-データのフォーマットは以下の通り...
+データのフォーマットはTwist型で，以下のようになっている．
+
+```
+geometry_msgs/Twist
+    float64 linear.x
+    float64 linear.y
+    float64 linear.z
+    float64 angular.x
+    float64 angular.y
+    float64 angular.z
+```
+
