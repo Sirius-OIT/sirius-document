@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Sirius Document'
-copyright = '2024' # ここには著作権表示
+copyright = '2024, Inoue Lab.'
 author = 'Kotani Ryota' # ここには著者名
 
 release = '0.1'

@@ -1,16 +1,13 @@
 Sirius Document
 ===============================
 
-Siriusは中之島チャレンジに出場するロボットの名前です，
+Siriusは中之島チャレンジに出場するロボットの名前です．
 
-このドキュメントはそのロボットのドキュメントです．
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+これはそのロボットのドキュメントです．
 
 .. note::
 
-   This project is under active development.
+   このドキュメントは開発途中のものです．
 
 内容
 --------
@@ -19,5 +16,3 @@ how to :ref:`installation` the project.
 
    usage
    api
-
-Lumache has its documentation hosted on Read the Docs.
