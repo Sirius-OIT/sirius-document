@@ -25,7 +25,7 @@ PC            ROS2
 STM32 Nucleo  モータ制御
 ============= ==========
 
-PCでROS2を使って色々な計算をして，STM32 Nucleoにデータを送信する．
+PCでROS2の計算をして，STM32 Nucleoにデータを送信する．
 
 STM32 Nucleoについて
 ----------
