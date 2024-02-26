@@ -13,7 +13,6 @@ Siriusは中之島チャレンジに出場するロボットの名前です．
 --------
 
 .. toctree::
-   :maxdepth: 2
    :numbered:
    :glob: 
 
