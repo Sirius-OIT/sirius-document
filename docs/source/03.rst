@@ -31,6 +31,7 @@ PCからデータを受け取り，モータを制御する．
 これをPC側で8bit x 4のデータに変換し，Nucleoに送信している．
 
 .. code-block:: none
+    
     - data[0] : 速度データの上位8bit
     - data[1] : 速度データの下位8bit
     - data[2] : 角速度データの上位8bit
