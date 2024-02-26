@@ -18,7 +18,7 @@ PCからデータを受け取り，モータを制御する．
 
 受け取るデータのフォーマットはTwist型である．
 
-.. code-block:: json
+.. code-block:: 
     
     geometry_msgs/Twist
         float64 linear.x
