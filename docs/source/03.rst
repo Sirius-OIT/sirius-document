@@ -56,6 +56,6 @@ PCからデータを受け取り，モータを制御する．
 | **計算方法**
 .. math::
 
-    \text{{左モータの速度}} = \text{{速度データ}} - \left(\frac{{\text{{車輪間距離}}}}{2} \times \text{{角速度データ}}\right)
-    
-    \text{{右モータの速度}} = \text{{速度データ}} + \left(\frac{{\text{{車輪間距離}}}}{2} \times \text{{角速度データ}}\right)
+    \text{{左モータの速度}} = \text{{速度データ}} - \frac{{\text{{車輪間距離}}}}{2} \times \text{{角速度データ}}
+
+    \text{{右モータの速度}} = \text{{速度データ}} + \frac{{\text{{車輪間距離}}}}{2} \times \text{{角速度データ}}
