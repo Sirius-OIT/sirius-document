@@ -20,10 +20,10 @@ PCからデータを受け取り，モータを制御する．
 .. code-block:: none
     
     {
-        uint8 id
-        uint8 len
-        int16 linear.x
-        int16 angular.z
+        uint8 id,
+        uint8 len,
+        int16 linear.x,
+        int16 angular.z,
     }
 
 - id: ``1`` idに応じてデータの扱い方を変える
