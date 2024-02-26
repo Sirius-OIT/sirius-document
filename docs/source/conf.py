@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Sirius Document'
+project = 'Sirius 開発マニュアル'
 copyright = '2024, Inoue Lab.'
 author = 'Kotani Ryota' # ここには著者名
 
