@@ -16,22 +16,17 @@ STM32 Nucleoについて
 
 PCからデータを受け取り，モータを制御する．
 
-受け取るデータのフォーマットはTwist型である．
+受け取るデータのフォーマットは以下の通り．
 
 .. code-block:: 
     
-    geometry_msgs/Twist
-        float64 linear.x
-        float64 linear.y
-        float64 linear.z
-        float64 angular.x
-        float64 angular.y
-        float64 angular.z
+    float64 linear.x
+    float64 angular.z
 
 これをPC側で8bit x 4のデータに変換し，Nucleoに送信している．
 
 .. code-block:: none
-    
+
     - data[0] : 速度データの上位8bit
     - data[1] : 速度データの下位8bit
     - data[2] : 角速度データの上位8bit
