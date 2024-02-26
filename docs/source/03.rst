@@ -54,7 +54,7 @@ PCからデータを受け取り，モータを制御する．
 | - 右モータのPulse幅
 
 | **計算方法**
-.. code-block:: none
+.. math::
 
-    左モータのPulse幅 = 速度データ - ((車輪間距離 / 2) * 角速度データ)
-    右モータのPulse幅 = 速度データ + ((車輪間距離 / 2) * 角速度データ)
+    \text{{左モータのPulse幅}} = \text{{速度データ}} - \left(\frac{{\text{{車輪間距離}}}}{2} \times \text{{角速度データ}}\right)
+    \text{{右モータのPulse幅}} = \text{{速度データ}} + \left(\frac{{\text{{車輪間距離}}}}{2} \times \text{{角速度データ}}\right)
