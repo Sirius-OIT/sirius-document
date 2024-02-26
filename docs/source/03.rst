@@ -23,7 +23,7 @@ PCからデータを受け取り，モータを制御する．
     float64 linear.x
     float64 angular.z
 
-これをPC側で8bit x 4のデータに変換し，Nucleoに送信している．
+これをPC側で **8bit x 4** のデータに変換し，Nucleoに送信している．
 
 .. code-block:: none
 
