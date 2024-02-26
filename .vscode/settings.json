@@ -1,5 +1,5 @@
 {
-    // "esbonio.sphinx.confDir": "/Users/kotaniryota/ProgramLocal/Document/sirius-document/docs/source",
-    // "esbonio.sphinx.srcDir": "/Users/kotaniryota/ProgramLocal/Document/sirius-document/docs/source",
-    // "esbonio.sphinx.buildDir": "/Users/kotaniryota/ProgramLocal/Document/sirius-document/docs/_build",
+    "esbonio.sphinx.confDir": "/Users/kotaniryota/ProgramLocal/Document/sirius-document/docs/source",
+    "esbonio.sphinx.srcDir": "/Users/kotaniryota/ProgramLocal/Document/sirius-document/docs/source",
+    "esbonio.sphinx.buildDir": "/Users/kotaniryota/ProgramLocal/Document/sirius-document/docs/_build",
 }
