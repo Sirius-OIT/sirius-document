@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Sirius Document'
+# copyright = '2024, Inoue Lab.' # ここには著作権表示
+author = 'Kotani Ryota' # ここには著者名
 
 release = '0.1'
 version = '0.1.0'
