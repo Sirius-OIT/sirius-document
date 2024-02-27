@@ -1,17 +1,11 @@
-Template for the Read the Docs tutorial
+sirius 開発マニュアル
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
+readthedocsのチュートリアル
 
 https://docs.readthedocs.io/en/stable/tutorial/
 
-ドキュメントのリンク(更新済み）
+| ドキュメントのリンク(更新済み)
+見たい年代のブランチを選択してください
 
-URLの最後にブランチを選択する，
 https://sirius-oit-document.readthedocs.io/ja/latest/
-
-長尾さんが書くブランチ
-https://sirius-oit-document.readthedocs.io/ja/dev-2023/
