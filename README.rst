@@ -8,5 +8,7 @@ Read the tutorial here:
 
 https://docs.readthedocs.io/en/stable/tutorial/
 
-ドキュメントのリンク
-https://sirius-document.readthedocs.io/ja/latest/
+ドキュメントのリンク(更新済み）
+
+URLの最後にブランチを選択する，
+https://sirius-oit-document.readthedocs.io/ja/latest/
