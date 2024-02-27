@@ -9,3 +9,6 @@ https://docs.readthedocs.io/en/stable/tutorial/
 見たい年代のブランチを選択してください
 
 https://sirius-oit-document.readthedocs.io/ja/latest/
+
+
+今はdev-2023のブランチで書いていってほしいです．
