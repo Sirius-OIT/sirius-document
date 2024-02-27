@@ -12,3 +12,6 @@ https://docs.readthedocs.io/en/stable/tutorial/
 
 URLの最後にブランチを選択する，
 https://sirius-oit-document.readthedocs.io/ja/latest/
+
+長尾さんが書くブランチ
+https://sirius-oit-document.readthedocs.io/ja/dev-2023/
