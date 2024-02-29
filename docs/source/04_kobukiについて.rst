@@ -10,7 +10,7 @@ kobukiがspinしてるときに呼ばれる関数(メインで動いてる関数
 
 マイコンに送信するデータの型を作成するやつ
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-0. kobuki_core/src/driver/command.cpp
+``kobuki_core/src/driver/command.cpp``
 
 .. code-block:: c++
 
@@ -32,7 +32,7 @@ kobukiがspinしてるときに呼ばれる関数(メインで動いてる関数
 
 マイコンにシリアル通信経由でデータを送信する関数
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. kobuki_core/src/driver/kobuki.cpp
+``kobuki_core/src/driver/kobuki.cpp``
 
 .. code-block:: c++
 
