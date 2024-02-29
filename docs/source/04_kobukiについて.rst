@@ -84,3 +84,7 @@ kobukiについて
         sig_raw_data_command.emit(command_buffer);
         command_mutex.unlock();
     }
+
+kobukiがspinしてるときに呼ばれる関数(メインで動いてる関数)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- `void Kobuki::spin()` で `sendBaseControlCommand()` が呼ばれる
