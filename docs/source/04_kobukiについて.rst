@@ -16,17 +16,17 @@ kobukiがspinしてるときに呼ばれる関数(メインで動いてる関数
 
     bool Command::serialise(ecl::PushAndPop<unsigned char> & byteStream)
     {
-    // need to be sure we don't pass through an emum to the Trans'd buildBytes functions.
-    unsigned char cmd = static_cast<unsigned char>(data.command);
-    unsigned char length = 0;
-    switch (data.command)
-    {
-        case BaseControl: // cmd == 1
-        buildBytes(cmd, byteStream); // 1
-        buildBytes(length=4, byteStream); // データの長さ
-        buildBytes(data.speed, byteStream); // 速度 [mm/s]
-        buildBytes(data.radius, byteStream); // 回転半径 [mm]
-        break;
+        // need to be sure we don't pass through an emum to the Trans'd buildBytes functions.
+        unsigned char cmd = static_cast<unsigned char>(data.command);
+        unsigned char length = 0;
+        switch (data.command)
+        {
+            case BaseControl: // cmd == 1
+            buildBytes(cmd, byteStream); // 1
+            buildBytes(length=4, byteStream); // データの長さ
+            buildBytes(data.speed, byteStream); // 速度 [mm/s]
+            buildBytes(data.radius, byteStream); // 回転半径 [mm]
+            break;
     ...
 
 
