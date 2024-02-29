@@ -8,7 +8,10 @@ https://docs.readthedocs.io/en/stable/tutorial/
 | ドキュメントのリンク(更新済み)
 見たい年代のブランチを選択してください
 
-| 今はdev-2023のブランチで書いていってほしいです．
-dev-2023のリンク↓　ページ上でもブランチは切り替えれる．
+【重要】執筆にあたり
+==================
 
-https://sirius-oit-document.readthedocs.io/ja/dev-2023
+| 今は, mainブランチで更新をしていきます．
+| 追加で加筆する際は，mainブランチにそのまま書き込むか，新しいブランチを作成してください．
+
+https://sirius-oit-document.readthedocs.io/ja/latest
