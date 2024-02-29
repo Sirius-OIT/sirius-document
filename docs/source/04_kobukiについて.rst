@@ -7,6 +7,7 @@ kobukiについて
 マイコンに送信するデータの型を作成するやつ
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 0. kobuki_core/src/driver/command.cpp
+
 .. code-block:: c++
 
     bool Command::serialise(ecl::PushAndPop<unsigned char> & byteStream)
@@ -83,7 +84,3 @@ kobukiについて
         sig_raw_data_command.emit(command_buffer);
         command_mutex.unlock();
     }
-    
-
-
-.. code-block:: 
