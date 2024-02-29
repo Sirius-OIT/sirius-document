@@ -4,10 +4,31 @@ kobukiについて
 見るべき関数
 ----------------------------------------------------------------
 
+マイコンに送信するデータの型を作成するやつ
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+0. kobuki_core/src/driver/command.cpp
+.. code-block:: c++
+
+    bool Command::serialise(ecl::PushAndPop<unsigned char> & byteStream)
+    {
+    // need to be sure we don't pass through an emum to the Trans'd buildBytes functions.
+    unsigned char cmd = static_cast<unsigned char>(data.command);
+    unsigned char length = 0;
+    switch (data.command)
+    {
+        case BaseControl: // cmd == 1
+        buildBytes(cmd, byteStream); // 1
+        buildBytes(length=4, byteStream); // データの長さ
+        buildBytes(data.speed, byteStream); // 速度 [mm/s]
+        buildBytes(data.radius, byteStream); // 回転半径 [mm]
+        break;
+    ...
+
+
 マイコンにシリアル通信経由でデータを送信する関数
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-kobuki_core/src/driver/kobuki.cpp
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+1. kobuki_core/src/driver/kobuki.cpp
+
 .. code-block:: c++
 
     void Kobuki::sendBaseControlCommand()
@@ -30,7 +51,6 @@ kobuki_core/src/driver/kobuki.cpp
         sig_raw_control_command.emit(velocity_commands_debug);
     }
 
-
 .. code-block:: c++
 
     void Kobuki::sendCommand(Command command) // 引数：(速度[mm/s], 回転半径[mm])
@@ -44,7 +64,7 @@ kobuki_core/src/driver/kobuki.cpp
         command_mutex.lock();
         kobuki_command.resetBuffer(command_buffer);
 
-        // 詳しくは, command.cpp
+        // command.cppでデータの型作成
         if (!command.serialise(command_buffer))
         {
             sig_error.emit("command serialise failed.");
@@ -63,5 +83,7 @@ kobuki_core/src/driver/kobuki.cpp
         sig_raw_data_command.emit(command_buffer);
         command_mutex.unlock();
     }
+    
 
 
+.. code-block:: 

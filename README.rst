@@ -13,4 +13,4 @@ https://gotohayato.com/content/464/
 | 今は, mainブランチで更新をしていきます．
 | 追加で加筆する際は，mainブランチにそのまま書き込むか，新しいブランチを作成してください．
 
-https://sirius-oit-document.readthedocs.io/ja/latest
+https://sirius-oit-document.readthedocs.io/ja/main
