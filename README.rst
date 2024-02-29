@@ -1,9 +1,10 @@
 sirius 開発マニュアル
 ###################
 
-readthedocsのチュートリアル
-
+| readthedocsのチュートリアル
 https://docs.readthedocs.io/en/stable/tutorial/
+
+https://gotohayato.com/content/464/
 
 | ドキュメントのリンク(更新済み)
 見たい年代のブランチを選択してください
