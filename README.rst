@@ -1,9 +1,10 @@
 sirius 開発マニュアル
 ###################
 
-| readthedocsのチュートリアル
+| 0.readthedocsのチュートリアル
 https://docs.readthedocs.io/en/stable/tutorial/
 
+| 1.reStructuredTextの書き方
 https://gotohayato.com/content/464/
 
 【重要】執筆にあたり
