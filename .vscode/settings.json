@@ -1,3 +1,5 @@
 {
-    "esbonio.sphinx.confDir": "",
+    "esbonio.sphinx.confDir": "docs/source",
+    "esbonio.sphinx.buildDir": "docs/build",
+    "esbonio.server.enabled": true,
 }
