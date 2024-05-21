@@ -13,7 +13,7 @@ BehaviorTree.CPP v4.5 のインストール
     $ cd BehaviorTree.CPP
     $ mkdir build
     $ cd build
-    $ cmake..
+    $ cmake ..
     $ make -j8
     $ sudo make install
 
@@ -23,7 +23,7 @@ BehaviorTree.CPP v4.5 のインストール
 
 .. code-block:: bash
 
-    export export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+    export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
 Groot2のインストール
 ------------------
